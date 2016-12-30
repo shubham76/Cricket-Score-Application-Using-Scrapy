@@ -1,2 +1,2 @@
-# Cricket-Score-Application-Using-Scrapy-
+# Cricket-Score-Application-Using-Scrapy
 Simple Cricket Scoring Application Using Python Scrapy
