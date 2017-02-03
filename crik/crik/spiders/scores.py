@@ -116,7 +116,7 @@ class QuotesSpider(scrapy.Spider):
             next_page='http://www.espncricinfo.com/ci/engine/match/index.html'
             if next_page is not None:
                 next_page = response.urljoin(next_page)
-                yield scrapy.Request(next_page, callback=self.parse)
+                yield scrapy.Request(next_page, callback=self.parse,dont_filter=True)
             exit=True
 
 
